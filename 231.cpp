@@ -1,17 +1,18 @@
-// #include <iostream>
-// using namespace std;
-
-// incomplete
-
-// int main()
-// {
-//     int n;
-//     int a[2];
-//     cin >> n;
-//     for (int i = 0; i < n; i++)
-//     {
-//         cin >> a[0] >> a[1] >> a[2];
-//     }
-
-//     return 0;
-// }
+#include <iostream>
+using namespace std;
+int main(){
+    int t;
+    int ans=0;
+    cin>>t;
+    int x,y,z;
+   while (t--){
+      cin>>x>>y>>z;
+     
+      if (x+y+z>=2){
+          ans++;
+      }
+     
+  }
+   cout<<ans;
+  
+}
